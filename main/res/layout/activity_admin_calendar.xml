@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFF0"
+    tools:context=".AdminCalendar">
+
+    <TextView
+        android:id="@+id/ah8"
+        android:layout_width="151dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginBottom="13dp"
+        android:text="8:00-9:00"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/ah9"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/ah10"
+        android:layout_width="151dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginBottom="13dp"
+        android:clickable="false"
+        android:text="10:00-11:00"
+        app:layout_constraintBottom_toTopOf="@+id/ah11"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/acb15"
+        android:layout_width="25dp"
+        android:layout_height="29dp"
+        app:layout_constraintBottom_toTopOf="@+id/acb16"
+        app:layout_constraintStart_toEndOf="@+id/ah15" />
+
+    <TextView
+        android:id="@+id/ah17"
+        android:layout_width="151dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="13dp"
+        android:clickable="false"
+        android:text="17:00-18:00"
+        app:layout_constraintBottom_toTopOf="@+id/ah18"
+        app:layout_constraintStart_toEndOf="@+id/acb10" />
+
+    <CheckBox
+        android:id="@+id/acb21"
+        android:layout_width="25dp"
+        android:layout_height="29dp"
+        android:layout_marginBottom="52dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ah21" />
+
+    <TextView
+        android:id="@+id/ah18"
+        android:layout_width="151dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="13dp"
+        android:clickable="false"
+        android:text="18:00-19:00"
+        app:layout_constraintBottom_toTopOf="@+id/ah19"
+        app:layout_constraintStart_toEndOf="@+id/acb11" />
+
+    <CheckBox
+        android:id="@+id/acb19"
+        android:layout_width="25dp"
+        android:layout_height="29dp"
+        app:layout_constraintBottom_toTopOf="@+id/acb20"
+        app:layout_constraintStart_toEndOf="@+id/ah19" />
+
+    <CheckBox
+        android:id="@+id/acb20"
+        android:layout_width="25dp"
+        android:layout_height="29dp"
+        app:layout_constraintBottom_toTopOf="@+id/acb21"
+        app:layout_constraintStart_toEndOf="@+id/ah20" />
+
+    <CheckBox
+        android:id="@+id/acb17"
+        android:layout_width="25dp"
+        android:layout_height="29dp"
+        app:layout_constraintBottom_toTopOf="@+id/acb18"
+        app:layout_constraintStart_toEndOf="@+id/ah17" />
+
+    <TextView
+        android:id="@+id/ah15"
+        android:layout_width="151dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="13dp"
+        android:text="15:00-16:00"
+        app:layout_constraintBottom_toTopOf="@+id/ah16"
+        app:layout_constraintStart_toEndOf="@+id/acb8" />
+
+    <TextView
+        android:id="@+id/ah20"
+        android:layout_width="151dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="11dp"
+        android:clickable="false"
+        android:text="20:00-21:00"
+        app:layout_constraintBottom_toTopOf="@+id/ah21"
+        app:layout_constraintStart_toEndOf="@+id/acb13" />
+
+    <TextView
+        android:id="@+id/ah21"
+        android:layout_width="151dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="21dp"
+        android:clickable="false"
+        android:text="21:00-22:00"
+        app:layout_constraintBottom_toTopOf="@+id/abbook"
+        app:layout_constraintStart_toEndOf="@+id/acb14" />
+
+    <CheckBox
+        android:id="@+id/acb16"
+        android:layout_width="25dp"
+        android:layout_height="29dp"
+        app:layout_constraintBottom_toTopOf="@+id/acb17"
+        app:layout_constraintStart_toEndOf="@+id/ah16" />
+
+    <TextView
+        android:id="@+id/ah19"
+        android:layout_width="151dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="13dp"
+        android:clickable="false"
+        android:text="19:00-20:00"
+        app:layout_constraintBottom_toTopOf="@+id/ah20"
+        app:layout_constraintStart_toEndOf="@+id/acb12" />
+
+    <CheckBox
+        android:id="@+id/acb18"
+        android:layout_width="25dp"
+        android:layout_height="29dp"
+        app:layout_constraintBottom_toTopOf="@+id/acb19"
+        app:layout_constraintStart_toEndOf="@+id/ah18" />
+
+    <TextView
+        android:id="@+id/ah16"
+        android:layout_width="151dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="13dp"
+        android:clickable="false"
+        android:text="16:00-17:00"
+        app:layout_constraintBottom_toTopOf="@+id/ah17"
+        app:layout_constraintStart_toEndOf="@+id/acb9" />
+
+    <TextView
+        android:id="@+id/ah11"
+        android:layout_width="151dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginBottom="13dp"
+        android:clickable="false"
+        android:text="11:00-12:00"
+        app:layout_constraintBottom_toTopOf="@+id/ah12"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/ah14"
+        android:layout_width="151dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginBottom="65dp"
+        android:clickable="false"
+        android:text="14:00-15:00"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/ah12"
+        android:layout_width="151dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginBottom="13dp"
+        android:clickable="false"
+        android:text="12:00-13:00"
+        app:layout_constraintBottom_toTopOf="@+id/ah13"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/ah13"
+        android:layout_width="151dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginBottom="11dp"
+        android:clickable="false"
+        android:text="13:00-14:00"
+        app:layout_constraintBottom_toTopOf="@+id/ah14"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/acb14"
+        android:layout_width="25dp"
+        android:layout_height="29dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/abbook"
+        app:layout_constraintStart_toEndOf="@+id/ah14" />
+
+    <CheckBox
+        android:id="@+id/acb13"
+        android:layout_width="25dp"
+        android:layout_height="29dp"
+        app:layout_constraintBottom_toTopOf="@+id/acb14"
+        app:layout_constraintStart_toEndOf="@+id/ah13" />
+
+    <CheckBox
+        android:id="@+id/acb12"
+        android:layout_width="25dp"
+        android:layout_height="29dp"
+        app:layout_constraintBottom_toTopOf="@+id/acb13"
+        app:layout_constraintStart_toEndOf="@+id/ah12" />
+
+    <CheckBox
+        android:id="@+id/acb11"
+        android:layout_width="25dp"
+        android:layout_height="29dp"
+        app:layout_constraintBottom_toTopOf="@+id/acb12"
+        app:layout_constraintStart_toEndOf="@+id/ah11" />
+
+    <CheckBox
+        android:id="@+id/acb10"
+        android:layout_width="25dp"
+        android:layout_height="29dp"
+        app:layout_constraintBottom_toTopOf="@+id/acb11"
+        app:layout_constraintStart_toEndOf="@+id/ah10" />
+
+    <CheckBox
+        android:id="@+id/acb8"
+        android:layout_width="25dp"
+        android:layout_height="29dp"
+        app:layout_constraintBottom_toTopOf="@+id/acb9"
+        app:layout_constraintStart_toEndOf="@+id/ah8" />
+
+    <CheckBox
+        android:id="@+id/acb9"
+        android:layout_width="25dp"
+        android:layout_height="29dp"
+        app:layout_constraintBottom_toTopOf="@+id/acb10"
+        app:layout_constraintStart_toEndOf="@+id/ah9" />
+
+    <TextView
+        android:id="@+id/ah9"
+        android:layout_width="151dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginBottom="13dp"
+        android:clickable="false"
+        android:text="9:00-10:00"
+        app:layout_constraintBottom_toTopOf="@+id/ah10"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/adate_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Select the Date"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/ah8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CalendarView
+        android:id="@+id/acalender"
+        android:layout_width="350dp"
+        android:layout_height="298dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginRight="31dp"
+        app:layout_constraintBottom_toTopOf="@+id/details"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"></CalendarView>
+
+    <Button
+        android:id="@+id/abbook"
+        android:layout_width="78dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="159dp"
+        android:layout_marginLeft="159dp"
+        android:layout_marginEnd="164dp"
+        android:layout_marginRight="164dp"
+        android:layout_marginBottom="4dp"
+        android:text="Book"
+        android:textAllCaps="true"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/details"
+        android:layout_width="384dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Booking Details"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/adate_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
